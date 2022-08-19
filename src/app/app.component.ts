@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Parent To Child';
-  data = 10;
+  data = 5;
 }
