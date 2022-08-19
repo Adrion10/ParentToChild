@@ -9,6 +9,6 @@ export class AppComponent {
   title = 'Parent To Child';
   data = 5;
   updateData() {
-    this.data = Math.random();
+    this.data = Math.floor(Math.random() * 10);
   }
 }
