@@ -19,4 +19,5 @@ export class AppComponent {
     { name: 'Marisola', email: 'Marisola@gmail.com' },
     { name: 'Rovena', email: 'Rovena@gmail.com' },
   ];
+  title2 = 'Sent data from child to Parent componet';
 }
