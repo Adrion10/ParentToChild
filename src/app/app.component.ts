@@ -20,4 +20,7 @@ export class AppComponent {
     { name: 'Rovena', email: 'Rovena@gmail.com' },
   ];
   title2 = 'Sent data from child to Parent componet';
+  updateDAta(item: string) {
+    console.log(item);
+  }
 }
