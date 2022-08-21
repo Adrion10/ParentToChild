@@ -23,4 +23,5 @@ export class AppComponent {
   updateDAta(item: string) {
     console.log(item);
   }
+  title3 = 'Two way binding';
 }
