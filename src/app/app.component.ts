@@ -7,10 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Parent To Child';
-  data = 5;
-  updateData() {
-    this.data = Math.floor(Math.random() * 10);
-  }
+  // // data = 5;
+  // updateData() {
+  //   this.data = Math.floor(Math.random() * 10);
+  // }
   title1 = 'user-details';
   userDetails = [
     { name: 'Lace', email: 'lace@gmail.com' },
@@ -24,4 +24,5 @@ export class AppComponent {
     console.log(item);
   }
   title3 = 'Two way binding';
+  data: any;
 }
